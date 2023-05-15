@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsServiceVB", "WindowsServiceVB\WindowsServiceVB.vbproj", "{93646B58-3831-44EA-A39E-9B66DB6E9A84}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BW2_SMTPServerInstaller", "BW2_SMTPServerInstaller\BW2_SMTPServerInstaller.vdproj", "{42DD9969-19A1-475A-A506-E8C27D1BD340}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMTPService_Debugger", "SMTPService_Debugger\SMTPService_Debugger.vbproj", "{E212E2F6-D6C3-47EB-BD1F-1AA600ED0B85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,12 @@ Global
 		{93646B58-3831-44EA-A39E-9B66DB6E9A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93646B58-3831-44EA-A39E-9B66DB6E9A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93646B58-3831-44EA-A39E-9B66DB6E9A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DD9969-19A1-475A-A506-E8C27D1BD340}.Debug|Any CPU.ActiveCfg = Debug
+		{42DD9969-19A1-475A-A506-E8C27D1BD340}.Release|Any CPU.ActiveCfg = Release
+		{E212E2F6-D6C3-47EB-BD1F-1AA600ED0B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E212E2F6-D6C3-47EB-BD1F-1AA600ED0B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E212E2F6-D6C3-47EB-BD1F-1AA600ED0B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E212E2F6-D6C3-47EB-BD1F-1AA600ED0B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
